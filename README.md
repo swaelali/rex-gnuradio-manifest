@@ -26,7 +26,7 @@ Getting started
 
   * *Tell Repo where to find the manifest*
 
-  * `$ repo init -u git://github.com/swaelali/rex-gnuradio-manifest.git -b jethro`
+  * `$ repo init -u git://github.com/swaelali/rex-gnuradio-manifest.git`
 
 
 * __3-Fetch all the repositories.__
