@@ -21,8 +21,8 @@
         <copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="voipac" revision="master" name="meta-fsl-arm-voipac" path="sources/meta-fsl-arm-voipac">
-        <copyfile src="voipac-setup.sh" dest="voipac-setup.sh"/>
+  <project remote="voipac" revision="refs/tags/v2.1" name="meta-fsl-arm-voipac" path="sources/meta-fsl-arm-voipac">
+    <copyfile src="voipac-setup.sh" dest="voipac-setup.sh"/>
   </project>
 
   <project remote="freescale" revision="07ad83db0fb67c5023bd627a61efb7f474c52622" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
