@@ -21,10 +21,10 @@
         <copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="voipac" revision="master" name="meta-fsl-arm-voipac" path="sources/meta-fsl-arm-voipac">
+    <project remote="voipac" revision="master" name="meta-fsl-arm-voipac" path="sources/meta-fsl-arm-voipac">
         <copyfile src="voipac-setup.sh" dest="voipac-setup.sh"/>
   </project>
-
+  
   <project remote="freescale" revision="07ad83db0fb67c5023bd627a61efb7f474c52622" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
   <project remote="freescale" revision="5a12677ad000a926d23c444266722a778ea228a7" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
 
@@ -34,11 +34,12 @@
      <copyfile src="imx/tools/fsl-setup-release.sh" dest="fsl-setup-release.sh" />
   </project>
 
-  <project name="meta-ettus" remote="ettus" path="sources/meta-ettus" revision="fb6a85a8a823f5b8da49a736417859df945e404e" />
-
-  <project name="meta-xilinx" remote="Xilinx" path="sources/meta-xilinx" revision="b271330b745ead404ddb8a9912db44da6fbbf968" />
-
-  <project name="meta-sdr" remote="balister" path="sources/meta-sdr" revision="8c62244595165afd1af37b887c49c54f3a21f966" />
-
+  <project name="meta-ettus" remote="ettus" path="meta-ettus" revision="d07a9ab1bdb555956f6d323847818b17f98f6205" />
+  
+  <project name="meta-qt4"  remote="yocto" path="meta-qt4" revision="92a72a790a427af5f85ce86fea4fce86a72c7b58"  />
+	
+  <project name="meta-xilinx" remote="Xilinx" path="meta-xilinx" revision="dcd1c218f943c3657b138cb05012c90c65f32a35" />
+  
+  <project name="meta-sdr" remote="balister" path="meta-sdr" revision="d0c683414645a3629fe6aa82704bcf07a23fe2c0" />
 </manifest>
 
