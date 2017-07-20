@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <manifest>
+  <default sync-j="2" />
   <remote fetch="git://git.yoctoproject.org" name="yocto" />
   <remote fetch="git://github.com/Freescale" name="freescale" />
   <remote fetch="git://github.com/Voipac" name="voipac"/>
   <remote fetch="git://git.openembedded.org" name="oe" />
   <remote fetch="git://git.freescale.com/imx" name="fsl-release" />
+  <remote fetch="git://github.com/OSSystems" name="OSSystems"/>
   <remote fetch="git://github.com/Xilinx" name="Xilinx"/>
   <remote fetch="git://github.com/balister" name="balister"/>
   <remote fetch="git://github.com/EttusResearch" name="ettus"/>
@@ -26,6 +28,8 @@
   <project remote="freescale" revision="07ad83db0fb67c5023bd627a61efb7f474c52622" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
   <project remote="freescale" revision="5a12677ad000a926d23c444266722a778ea228a7" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
 
+  <project remote="OSSystems" revision="fc3969f63bda343c38c40a23f746c560c4735f3e" name="meta-browser" path="sources/meta-browser" />
+
   <project remote="fsl-release" name="meta-fsl-bsp-release" path="sources/meta-fsl-bsp-release" revision="dora_3.10.17-1.0.0_GA">
      <copyfile src="imx/tools/fsl-setup-release.sh" dest="fsl-setup-release.sh" />
   </project>
@@ -35,6 +39,6 @@
   <project name="meta-xilinx" remote="Xilinx" path="sources/meta-xilinx" revision="b271330b745ead404ddb8a9912db44da6fbbf968" />
 
   <project name="meta-sdr" remote="balister" path="sources/meta-sdr" revision="8c62244595165afd1af37b887c49c54f3a21f966" />
-  
+
 </manifest>
 
